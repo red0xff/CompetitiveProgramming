@@ -1,3 +1,8 @@
+--[[
+INPUT FORMAT:
+The sudoku grid, with 0 in the empty cells, any separator will do, what is important is that the program must read 81 integer values, then it will take the first 9 as the first line of the sudoku etc.
+]]
+
 local function find_clear(sudoku)
 	for i = 1, 9 do
 		for j = 1, 9 do
